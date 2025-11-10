@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coffee Brewing Guide</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+<h1>Coffee Brewing Guide</h1>
+ <p>Your journey to the perfect cup begins here</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#methods">Methods</a>
+<a href="#tools">Tools</a>
+<a href="#tips">Tips</a>
+</nav>
+<!-- test -->
+
+<section class="hero">
+<div class="overlay">
+<h2>Discover the Art of Coffee</h2>
+<p>Explore different brewing styles, the tools you need, and tips for mastering your coffee ritual.</p>
+</div>
+</section>
+
+<section id="about" class="intro">
+<h2>About Coffee</h2>
+<p>Coffee is a global passion, brewed in countless ways across cultures. From bold espresso shots to smooth cold brews, every technique brings out unique flavors and aromas. This guide explores how grind size, water temperature, and time influence your brew—helping you craft a cup that fits your taste perfectly.</p>
+</section>
+
+<h2 id="head1">Popular Brewing Methods</h2>
+<section id="methods" class="methods">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80" alt="Drip Coffee Maker">
+<h3>Drip Coffee Maker</h3>
+<p>Balanced and convenient. Hot water drips through medium-ground coffee in a paper filter, producing a smooth, consistent cup ideal for everyday enjoyment.</p>
+
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80" alt="French Press">
+<h3>French Press</h3>
+<p>Rich, bold, and full-bodied. Steep coarse coffee grounds in hot water for about 4 minutes, then press gently. Best for those who love deep, textured flavors.</p>
+</div>
+
+<div class="card">
+<img src="https://www.foodandwine.com/thmb/Dd_X2mAFjI9LWemlZ0ZpUXtXKGM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/update-faw-product-chemex-classic-series-coffeemaker-social-d5dcd545753e4a6193149cafc69c8166.jpg" alt="Pour Over">
+<h3>Pour Over</h3>
+<p>Clean and aromatic. Pour hot water in a slow circular motion over a filter of freshly ground coffee to highlight the delicate notes of your beans.</p>
+</div>
+
+<div class="card">
+<img src="https://sumatocoffee.com/cdn/shop/articles/espresso_d93cf1fb-0d4d-4da2-877f-c8226560ea4a.png?v=1758145494&width=640" alt="Espresso">
+<h3>Espresso</h3>
+<p>Strong and concentrated. High pressure pushes water through finely ground coffee for an intense, flavorful shot topped with crema.</p>
+</div>
+
+<div class="card">
+<img src="https://images.getrecipekit.com/20230414191220-aeropress-20clear-20with-20flow-20control-20filter-20cap-20next-20to-20mug-20of-20crema.jpg?width=650&quality=90&" alt="AeroPress">
+<h3>AeroPress</h3>
+<p>Quick and smooth. Combine air pressure and immersion for a clean, balanced brew in under a minute—perfect for coffee lovers on the move.</p>
+</div>
+
+<div class="card">
+<img src="data:image/jpeg;base64,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" alt="Cold Brew">
+<h3>Cold Brew</h3>
+<p>Cool and mellow. Steep coarse grounds in cold water for 12–18 hours to create a naturally sweet, low-acid coffee served over ice.</p>
+</div>
+</section>
+
+<section id="tools" class="tools">
+<h2>Essential Tools</h2>
+<div class="tool-grid">
+<div class="tool">Coffee Grinder</div>
+<div class="tool">Digital Scale</div>
+<div class="tool">Gooseneck Kettle</div>
+<div class="tool">Thermometer</div>
+<div class="tool">Brewing Equipment</div>
+<div class="tool">Fresh Coffee Beans</div>
+</div>
+</section>
+
+<section id="tips" class="tips">
+<h2>Brewing Tips</h2>
+<p>For a truly satisfying brew, always use filtered water and fresh beans. Store your coffee in airtight containers away from light. Preheat your brewing equipment to maintain consistency, and experiment with the coffee-to-water ratio—small adjustments can reveal entirely new flavors in your cup.</p>
+</section>
+
+<footer>
+<p>© 2025 Coffee Brewing Guide | Crafted with Passion ☕</p>
+</footer>
+</body>
+</html>
